@@ -9,8 +9,8 @@ namespace FilePower1
     {
         private static void Main(string[] args)
         {
-            string filename = args[0];
-            Queue<string> inputQueue = new Queue<string>();
+            string fileName = args[0];
+            Queue<string> inputQueue = new();
 
             Console.WriteLine($"Enter string");
 
@@ -26,7 +26,7 @@ namespace FilePower1
             }
             while (input != string.Empty);
 
-            File.WriteAllLines(filename, inputQueue);
+            File.WriteAllLines(fileName, inputQueue);
 
         }
     }
