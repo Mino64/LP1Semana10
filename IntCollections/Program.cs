@@ -22,7 +22,7 @@ namespace IntCollections
                 hashSety.Add(num);
             }
 
-            Console.WriteLine($"List: {string.Join(", ", listy)}");
+            Console.WriteLine($"List: {string.Join(", ", listy )}");
             Console.WriteLine($"Stack: {string.Join(", ", stacky)}");
             Console.WriteLine($"Queue: {string.Join(", ", queuey)}");
             Console.WriteLine($"HashSet: {string.Join(", ", hashSety)}");
