@@ -12,7 +12,7 @@ namespace ArcadeLog
         // done
         public string Name { get; }
         // Propriedade: Points (int), sempre entre 0 e 9999
-        // 
+        // done
         public int Points
         {
             get
@@ -49,7 +49,7 @@ namespace ArcadeLog
         }
 
         // Construtor: aceita nome e pontuação
-        // CÓDIGO AQUI
+        // done
 
         public Score(string name, int score)
         {
@@ -59,14 +59,14 @@ namespace ArcadeLog
 
         public int CompareTo(Score other)
         {
-            // CÓDIGO AQUI
+            // done?
             if(other is null) return 1;
             return other.points - this.points; // substitua o return
         }
 
         public override string ToString()
         {
-            // CÓDIGO AQUI
+            // done
             return $"{Name} [{Medal}]: {Points}"; // substitua o return
         }
     }
